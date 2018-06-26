@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body{
+
+}
+
+a:link {
+    text-decoration: none;
+}
+#nav1{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    background: #FFC78F;
+    color: #A3636F;
+}
+header{
+    border-style: solid;
+    border-width:5px;
+    font-size: 35px; 
+    font-family: arial;
+    width:100%;
+    height: 50px
+
+}
+#adbox{
+    padding: 5px;
+    float:right;
+    background: #E37A90;
+
+}
+#nav2{
+    display:flex;
+    flex-direction:right;
+    color: #925E73;
+    background: #bedccb;
+    justify-content: space-around;
+
+
+}
+#blog{
+
+}
+#right{
+
+}
+#comments{
+
+}
+#foot{
+
+}
