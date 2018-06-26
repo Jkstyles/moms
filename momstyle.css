@@ -18,10 +18,16 @@ a {
     color: #A3636F;
 }
 #nav1 {
-    display:flex;
-    flex-direction:row;
-    justify-content:flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
     background: #FFC78F;
+}
+
+#nav1-links {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
 }
 
 header {
@@ -76,6 +82,10 @@ button {
     align-items: flex-end;
 }
 
+ul {
+    padding-left: 20px;
+}
+
 #nav2 {
     display:flex;
     flex-direction:right;
@@ -102,4 +112,5 @@ button {
 }
 #foot {
     background-color: #bedccb;
+    font-size: 10px;
 }
