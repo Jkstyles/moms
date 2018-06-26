@@ -82,7 +82,7 @@ button {
     align-items: flex-end;
 }
 
-ul {
+ol {
     padding-left: 20px;
 }
 
@@ -94,16 +94,34 @@ ul {
     
 }
 #content-div {
+    border-style: solid;
     display: flex;
     flex-direction: row;
     background-color: white;
 }
+#picleft{
+    float:left;
+    padding:10px;
+}
 
 #blog {
+    display:flex;
+    flex-direction:column;
+    border-style: solid;
     width: 70%;
     background-color: white;
 }
+#blogPost1{
+    padding: 10px;
+}
+#blogPost2{
+    padding: 10px;
+}
+#blogPost3{
+    padding:10px;
+}
 #right {
+    border-style: solid;
     width: 30%;
     background-color: white;
 }
