@@ -3,54 +3,103 @@
     padding: 0;
   }
 
-body{
-
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d8cbbc;
+    font-family: 'Cabin';
 }
 
 a:link {
     text-decoration: none;
 }
-#nav1{
-    
+a {
+    color: #A3636F;
+}
+#nav1 {
     display:flex;
     flex-direction:row;
     justify-content:flex-end;
     background: #FFC78F;
-    color: #A3636F;
 }
-header{
-    border-style: solid;
-    border-width:5px;
-    font-size: 35px; 
-    font-family: arial;
-    width:100%;
-    height: 50px
+
+header {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* h1 {
+    font-family: 'Cabin', Arial, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Cabin', Arial, sans-serif;
+    font-size: 15px;
+} */
+
+#email {
+    width: 180px;
+    height: 22px;
+    border-width: 0;
+    background-color: #f9e4e9;
+}
+button {
+    background-color: #8B4A65;
+    color: white;
+    width: 84px;
+    height: 24px;
+    font-family: inherit;
+}
+
+#head-left {
 
 }
-#adbox{
-    padding: 5px;
-    float:right;
+
+#inline-logo {
+    font-size: 25px;
+}
+
+#logo {
+
+}
+#head-right {
     background: #E37A90;
-
+    width: 365px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
-#nav2{
+
+#nav2 {
     display:flex;
     flex-direction:right;
-    color: #925E73;
     background: #bedccb;
     justify-content: space-around;
-
-
+    
 }
-#blog{
-
+#content-div {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
 }
-#right{
 
+#blog {
+    width: 70%;
+    background-color: white;
 }
-#comments{
-
+#right {
+    width: 30%;
+    background-color: white;
 }
-#foot{
-
+#comments {
+    background-color: white;
+}
+#foot {
+    background-color: #bedccb;
 }
